@@ -16,16 +16,11 @@ class VeggyMonitor():
 		self.data = {}
 
 		def get_worker_heartbeat(event):
-			gen = (val for val in self.state.event(event) if val is not None)
-			for val in gen:
-				print val
-				
-			print "STATE_EVENT: %s\nEVENT %s" % (self.state.event(event), event)
+			print self.state.event(event), event
 		
 		with app.connection() as connection:
 			recv = app.events.Receiver(connection, handlers={
 				'worker-heartbeat': get_worker_heartbeat,
-	#			'task-sent': get_task_sent,
 			})
 			recv.capture(limit=None, timeout=None, wakeup=True)
 
