@@ -1,3 +1,4 @@
 #!/bin/sh
 
-celery -A veggy_pi.tasks worker --loglevel=info
+nohup celery -A veggy_pi.tasks worker --loglevel=info &
+echo "worker_pid: $!" >> "$PID_FILE"
