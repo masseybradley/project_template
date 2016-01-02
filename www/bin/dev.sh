@@ -19,4 +19,6 @@ main() {
 	)
 }
 
-main;
+main
+sleep 10
+celery control enable_events
