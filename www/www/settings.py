@@ -129,3 +129,5 @@ REST_FRAMEWORK = {
 
 # celery django result backend
 CELERY_RESULT_BACKEND='djcelery.backends.database:DatabaseBackend'
+
+BROKER='amqp://guest@localhost/'
