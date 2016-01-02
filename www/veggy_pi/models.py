@@ -6,6 +6,7 @@ from django.utils.translation import ugettext_lazy as _
 from django.core.exceptions import ValidationError
 
 
+
 class GenericTimer(models.Model):
 	"""
 	generic timer class to be sublclassed by timer implementations
@@ -28,13 +29,13 @@ class RepeatTimer(GenericTimer):
 	def __unicode__(self):
 		return "on: %s - off: %s (between: %s and %s)" % (self.on, self.off, self.start, self.end)
 	def generate_timer(self):
-		# total of timer duration = on period + off period
+		# interval = on period + off period
 		interval = self.on + self.off
+		# total duration = end - start
 		duration = self.end - self.start
+		# total repeat timers = duration / intervals 
 		timers = duration.total_seconds() / interval.total_seconds()
 		print "interval: %s\nduration: %s\non: %s\noff: %s\ntimers: %s" % (interval, duration, self.on, self.off, timers)
-		return duration, interval
-		
 
 	# def repeat_timer(self, hours, duration):
 

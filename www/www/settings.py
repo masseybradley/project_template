@@ -126,3 +126,7 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
 }
+
+# celery django result backend
+CELERY_RESULT_BACKEND='djcelery.backends.database:DatabaseBackend'
+

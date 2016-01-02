@@ -1,0 +1,4 @@
+#!/bin/sh
+
+DJANGO_SETTINGS_MODULE=www.settings
+export DJANGO_SETTINGS_MODULE
