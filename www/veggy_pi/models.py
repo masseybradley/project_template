@@ -6,6 +6,15 @@ from django.utils.translation import ugettext_lazy as _
 from django.core.exceptions import ValidationError
 
 
+from www import settings
+
+
+class RPiPinMap(models.Model):
+	label = models.CharField(max_length=50, blank=False, null=False)
+	pin_number = models.SmallIntegerField(blank=False, null=False)
+	is_gpio = models.BooleanField()
+	def __unicode__(self):
+		return "label: %s pin: %s" % (self.label, self.pin_number)
 
 class GenericTimer(models.Model):
 	"""
@@ -30,13 +39,13 @@ class RepeatTimer(GenericTimer):
 		return "on: %s - off: %s (between: %s and %s)" % (self.on, self.off, self.start, self.end)
 	def generate_timer(self):
 		# interval = on period + off period
-		interval = self.on + self.off
+		# on_period = start + on
+		# off_period = on_period + off
+		interval = self.on + self.off 
 		# total duration = end - start
 		duration = self.end - self.start
 		# total repeat timers = duration / intervals 
 		timers = duration.total_seconds() / interval.total_seconds()
 		print "interval: %s\nduration: %s\non: %s\noff: %s\ntimers: %s" % (interval, duration, self.on, self.off, timers)
-
-	# def repeat_timer(self, hours, duration):
-
+		
 # Create your models here.
