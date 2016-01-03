@@ -1,6 +1,8 @@
 #!/bin/sh
 
+# modify for your convenience
 PROJECT_BASE="$HOME/pi"
+
 PROJECT_HOME="$PROJECT_BASE/www"
 PROJECT_BIN="$PROJECT_HOME/bin"
 PROJECT_LOG="$PROJECT_HOME/log"
