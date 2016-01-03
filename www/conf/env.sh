@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# modify for your convenience
-PROJECT_BASE="$HOME/pi"
+CWD="`basename ${0%/*}`"
+PROJECT_BASE="$(dirname "$CWD")"
 
 PROJECT_HOME="$PROJECT_BASE/www"
 PROJECT_BIN="$PROJECT_HOME/bin"
