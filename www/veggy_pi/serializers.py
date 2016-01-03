@@ -1,8 +1,8 @@
-from world_check.models import *
+from veggy_pi.models import *
 
 from rest_framework import serializers
 
 
-#class TicketSerializer(serializers.ModelSerializer):
-#	class Meta:
-#		model = Ticket
+class RPiPinSerializer(serializers.ModelSerializer):
+	class Meta:
+		model = RPiPin
