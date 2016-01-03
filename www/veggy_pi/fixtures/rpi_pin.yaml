@@ -41,130 +41,130 @@
   pk: 14
   fields: {app_label: djcelery, model: taskstate}
 - model: contenttypes.contenttype
-  pk: 15
-  fields: {app_label: veggy_pi, model: rpipinmap}
+  pk: 16
+  fields: {app_label: veggy_pi, model: rpipin}
 - model: sessions.session
   pk: 8o141imdiyo1qp14lh6f1v4jhaf9m5ud
   fields: {session_data: MTk2NWU3YWYzM2NhNzkxM2RkODQ4MjliZmM1MzcyMTdlYWQ4OGIyNTp7Il9hdXRoX3VzZXJfaGFzaCI6IjMwNTYyODM2YTY3ZmQ1NDM4OGRiYjUxZmIwMjNlZWM3N2M0YTAwZmUiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=,
     expire_date: !!timestamp '2016-01-16 13:23:56.279835+00:00'}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 1
   fields: {pin: 1, label: GND}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 2
   fields: {pin: 2, label: GPIO02}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 3
   fields: {pin: 3, label: GPIO03}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 4
   fields: {pin: 4, label: GPIO04}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 5
   fields: {pin: 5, label: GND}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 6
   fields: {pin: 6, label: GPIO17}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 7
   fields: {pin: 7, label: GPIO27}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 8
   fields: {pin: 8, label: GPIO22}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 9
   fields: {pin: 9, label: 3.3V}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 10
   fields: {pin: 10, label: GPIO10}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 11
   fields: {pin: 11, label: GPIO09}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 12
   fields: {pin: 12, label: GPIO11}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 13
   fields: {pin: 13, label: GND}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 14
   fields: {pin: 14, label: DNC}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 15
   fields: {pin: 15, label: GPIO05}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 16
   fields: {pin: 16, label: GPIO06}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 17
   fields: {pin: 17, label: GPIO13}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 18
   fields: {pin: 18, label: GPIO19}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 19
   fields: {pin: 19, label: GPIO26}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 20
   fields: {pin: 20, label: GND}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 21
   fields: {pin: 21, label: GPIO21}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 22
   fields: {pin: 22, label: GPIO20}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 23
   fields: {pin: 23, label: GPIO16}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 24
   fields: {pin: 24, label: GND}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 25
   fields: {pin: 25, label: GPIO12}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 26
   fields: {pin: 26, label: GND}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 27
   fields: {pin: 27, label: DNC}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 28
   fields: {pin: 28, label: GPIO07}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 29
   fields: {pin: 29, label: GPIO08}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 30
   fields: {pin: 30, label: GPIO25}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 31
   fields: {pin: 31, label: GND}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 32
   fields: {pin: 32, label: GPIO24}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 33
   fields: {pin: 33, label: GPIO23}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 34
   fields: {pin: 34, label: GND}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 35
   fields: {pin: 35, label: GPIO18}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 36
   fields: {pin: 36, label: GPIO15}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 37
   fields: {pin: 37, label: GPIO14}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 38
   fields: {pin: 38, label: GND}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 39
   fields: {pin: 39, label: 5V}
-- model: veggy_pi.rpipinmap
+- model: veggy_pi.rpipin
   pk: 40
   fields: {pin: 40, label: 5V}
 - model: auth.permission
@@ -294,14 +294,14 @@
   pk: 42
   fields: {name: Can delete task, content_type: 14, codename: delete_taskstate}
 - model: auth.permission
-  pk: 43
-  fields: {name: Can add RPi Pin Map, content_type: 15, codename: add_rpipinmap}
+  pk: 46
+  fields: {name: Can add RPi Pin, content_type: 16, codename: add_rpipin}
 - model: auth.permission
-  pk: 44
-  fields: {name: Can change RPi Pin Map, content_type: 15, codename: change_rpipinmap}
+  pk: 47
+  fields: {name: Can change RPi Pin, content_type: 16, codename: change_rpipin}
 - model: auth.permission
-  pk: 45
-  fields: {name: Can delete RPi Pin Map, content_type: 15, codename: delete_rpipinmap}
+  pk: 48
+  fields: {name: Can delete RPi Pin, content_type: 16, codename: delete_rpipin}
 - model: auth.user
   pk: 1
   fields:
@@ -319,166 +319,166 @@
     user_permissions: []
 - model: admin.logentry
   pk: 1
-  fields: {action_time: !!timestamp '2016-01-02 13:24:10.320456+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:24:10.320456+00:00', user: 1, content_type: null,
     object_id: '1', object_repr: 1 - GND, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 2
-  fields: {action_time: !!timestamp '2016-01-02 13:24:34.810474+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:24:34.810474+00:00', user: 1, content_type: null,
     object_id: '2', object_repr: 2 - GPIO02, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 3
-  fields: {action_time: !!timestamp '2016-01-02 13:24:43.026234+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:24:43.026234+00:00', user: 1, content_type: null,
     object_id: '3', object_repr: 3 - GPIO03, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 4
-  fields: {action_time: !!timestamp '2016-01-02 13:24:54.472197+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:24:54.472197+00:00', user: 1, content_type: null,
     object_id: '4', object_repr: 4 - GPIO04, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 5
-  fields: {action_time: !!timestamp '2016-01-02 13:25:07.220120+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:25:07.220120+00:00', user: 1, content_type: null,
     object_id: '5', object_repr: 5 - GND, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 6
-  fields: {action_time: !!timestamp '2016-01-02 13:26:40.741356+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:26:40.741356+00:00', user: 1, content_type: null,
     object_id: '6', object_repr: 6 - GPIO17, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 7
-  fields: {action_time: !!timestamp '2016-01-02 13:26:47.109500+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:26:47.109500+00:00', user: 1, content_type: null,
     object_id: '7', object_repr: 7 - GPIO27, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 8
-  fields: {action_time: !!timestamp '2016-01-02 13:26:53.325671+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:26:53.325671+00:00', user: 1, content_type: null,
     object_id: '8', object_repr: 8 - GPIO22, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 9
-  fields: {action_time: !!timestamp '2016-01-02 13:27:11.409928+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:27:11.409928+00:00', user: 1, content_type: null,
     object_id: '9', object_repr: 9 - 3., action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 10
-  fields: {action_time: !!timestamp '2016-01-02 13:27:20.519464+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:27:20.519464+00:00', user: 1, content_type: null,
     object_id: '9', object_repr: 9 - 3.3V, action_flag: 2, change_message: Changed
       label.}
 - model: admin.logentry
   pk: 11
-  fields: {action_time: !!timestamp '2016-01-02 13:27:34.899059+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:27:34.899059+00:00', user: 1, content_type: null,
     object_id: '10', object_repr: 10 - GPIO10, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 12
-  fields: {action_time: !!timestamp '2016-01-02 13:27:42.560150+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:27:42.560150+00:00', user: 1, content_type: null,
     object_id: '11', object_repr: 11 - GPIO09, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 13
-  fields: {action_time: !!timestamp '2016-01-02 13:27:48.142180+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:27:48.142180+00:00', user: 1, content_type: null,
     object_id: '12', object_repr: 12 - GPIO11, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 14
-  fields: {action_time: !!timestamp '2016-01-02 13:27:58.600464+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:27:58.600464+00:00', user: 1, content_type: null,
     object_id: '13', object_repr: 13 - GND, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 15
-  fields: {action_time: !!timestamp '2016-01-02 13:28:03.311419+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:28:03.311419+00:00', user: 1, content_type: null,
     object_id: '14', object_repr: 14 - DNC, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 16
-  fields: {action_time: !!timestamp '2016-01-02 13:28:19.398441+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:28:19.398441+00:00', user: 1, content_type: null,
     object_id: '15', object_repr: 15 - GPIO05, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 17
-  fields: {action_time: !!timestamp '2016-01-02 13:28:27.598056+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:28:27.598056+00:00', user: 1, content_type: null,
     object_id: '16', object_repr: 16 - GPIO06, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 18
-  fields: {action_time: !!timestamp '2016-01-02 13:28:34.544277+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:28:34.544277+00:00', user: 1, content_type: null,
     object_id: '17', object_repr: 17 - GPIO13, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 19
-  fields: {action_time: !!timestamp '2016-01-02 13:28:39.778681+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:28:39.778681+00:00', user: 1, content_type: null,
     object_id: '18', object_repr: 18 - GPIO19, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 20
-  fields: {action_time: !!timestamp '2016-01-02 13:28:50.700771+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:28:50.700771+00:00', user: 1, content_type: null,
     object_id: '19', object_repr: 19 - GPIO26, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 21
-  fields: {action_time: !!timestamp '2016-01-02 13:28:54.924450+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:28:54.924450+00:00', user: 1, content_type: null,
     object_id: '20', object_repr: 20 - GND, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 22
-  fields: {action_time: !!timestamp '2016-01-02 13:29:06.127551+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:29:06.127551+00:00', user: 1, content_type: null,
     object_id: '21', object_repr: 21 - GPIO21, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 23
-  fields: {action_time: !!timestamp '2016-01-02 13:29:19.177551+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:29:19.177551+00:00', user: 1, content_type: null,
     object_id: '22', object_repr: 22 - GPIO20, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 24
-  fields: {action_time: !!timestamp '2016-01-02 13:29:29.881960+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:29:29.881960+00:00', user: 1, content_type: null,
     object_id: '23', object_repr: 23 - GPIO16, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 25
-  fields: {action_time: !!timestamp '2016-01-02 13:29:34.636687+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:29:34.636687+00:00', user: 1, content_type: null,
     object_id: '24', object_repr: 24 - GND, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 26
-  fields: {action_time: !!timestamp '2016-01-02 13:29:41.354347+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:29:41.354347+00:00', user: 1, content_type: null,
     object_id: '25', object_repr: 25 - GPIO12, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 27
-  fields: {action_time: !!timestamp '2016-01-02 13:29:53.079972+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:29:53.079972+00:00', user: 1, content_type: null,
     object_id: '26', object_repr: 26 - GND, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 28
-  fields: {action_time: !!timestamp '2016-01-02 13:29:58.134841+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:29:58.134841+00:00', user: 1, content_type: null,
     object_id: '27', object_repr: 27 - DNC, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 29
-  fields: {action_time: !!timestamp '2016-01-02 13:30:10.587199+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:30:10.587199+00:00', user: 1, content_type: null,
     object_id: '28', object_repr: 28 - GPIO07, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 30
-  fields: {action_time: !!timestamp '2016-01-02 13:30:16.180570+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:30:16.180570+00:00', user: 1, content_type: null,
     object_id: '29', object_repr: 29 - GPIO08, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 31
-  fields: {action_time: !!timestamp '2016-01-02 13:30:34.463773+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:30:34.463773+00:00', user: 1, content_type: null,
     object_id: '30', object_repr: 30 - GPIO25, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 32
-  fields: {action_time: !!timestamp '2016-01-02 13:30:54.109697+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:30:54.109697+00:00', user: 1, content_type: null,
     object_id: '31', object_repr: 31 - GND, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 33
-  fields: {action_time: !!timestamp '2016-01-02 13:31:05.613529+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:31:05.613529+00:00', user: 1, content_type: null,
     object_id: '32', object_repr: 32 - GPIO24, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 34
-  fields: {action_time: !!timestamp '2016-01-02 13:31:10.792578+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:31:10.792578+00:00', user: 1, content_type: null,
     object_id: '33', object_repr: 33 - GPIO23, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 35
-  fields: {action_time: !!timestamp '2016-01-02 13:31:16.423180+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:31:16.423180+00:00', user: 1, content_type: null,
     object_id: '34', object_repr: 34 - GND, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 36
-  fields: {action_time: !!timestamp '2016-01-02 13:31:30.661939+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:31:30.661939+00:00', user: 1, content_type: null,
     object_id: '35', object_repr: 35 - GPIO18, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 37
-  fields: {action_time: !!timestamp '2016-01-02 13:31:43.110908+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:31:43.110908+00:00', user: 1, content_type: null,
     object_id: '36', object_repr: 36 - GPIO15, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 38
-  fields: {action_time: !!timestamp '2016-01-02 13:31:50.768873+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:31:50.768873+00:00', user: 1, content_type: null,
     object_id: '37', object_repr: 37 - GPIO14, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 39
-  fields: {action_time: !!timestamp '2016-01-02 13:32:00.247853+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:32:00.247853+00:00', user: 1, content_type: null,
     object_id: '38', object_repr: 38 - GND, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 40
-  fields: {action_time: !!timestamp '2016-01-02 13:32:05.655928+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:32:05.655928+00:00', user: 1, content_type: null,
     object_id: '39', object_repr: 39 - 5V, action_flag: 1, change_message: Added.}
 - model: admin.logentry
   pk: 41
-  fields: {action_time: !!timestamp '2016-01-02 13:32:10.981976+00:00', user: 1, content_type: 15,
+  fields: {action_time: !!timestamp '2016-01-02 13:32:10.981976+00:00', user: 1, content_type: null,
     object_id: '40', object_repr: 40 - 5V, action_flag: 1, change_message: Added.}
